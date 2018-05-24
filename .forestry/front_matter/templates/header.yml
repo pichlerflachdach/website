@@ -26,3 +26,5 @@ fields:
       required: true
     label: Icon
     description: https://semantic-ui.com/elements/icon.html
+pages:
+- global/header.md
