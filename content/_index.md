@@ -27,7 +27,7 @@ uber_uns:
   jahre_beschriftung: "Jahre  \nErfahrung"
   bild_rechts: "/uploads/2018/05/24/pichler-team.png"
   hintergrund: "/uploads/2018/05/24/stilelement_leistungen.png"
-  jahre: ''
+  jahre: 15
 
 ---
 # asd1
