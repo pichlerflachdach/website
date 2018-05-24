@@ -1,0 +1,10 @@
+---
+hide_body: true
+is_partial: false
+fields:
+- type: file
+  name: logo
+  label: Logo
+- type: field_group_list
+  name: kontaktdaten
+  label: Kontaktdaten
