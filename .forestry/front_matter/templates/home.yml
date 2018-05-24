@@ -24,3 +24,5 @@ fields:
   - type: file
     name: bild
     label: Bild
+pages:
+- _index.md
