@@ -43,7 +43,7 @@ fields:
     label: Jahre
     config:
       min: '0'
-      max: '00'
+      max: '99'
       step: '1'
   - type: textarea
     name: jahre_beschriftung
