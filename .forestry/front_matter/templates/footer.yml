@@ -29,3 +29,5 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+pages:
+- global/footer.md
