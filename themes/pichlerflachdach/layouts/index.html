@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="content">
-  {{ .Content }}
+  {{ .Params.teaser_oben.beschriftung | markdownify }}
 </div>
 <div class="comm">
   {{ range .Params.comm }} {{ .txt }} {{ end }}
