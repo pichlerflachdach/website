@@ -1,0 +1,31 @@
+---
+hide_body: true
+is_partial: false
+fields:
+- type: text
+  label: Titel links hochkant
+  name: titel_links_hochkant
+- type: file
+  name: logo
+  label: Logo
+- type: textarea
+  name: kontaktdaten_spalte_1
+  label: Kontaktdaten Spalte 1
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: textarea
+  name: kontaktdaten_spalte_2
+  label: Kontaktdaten Spalte 2
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: textarea
+  name: kontaktdaten_spalte_3
+  label: Kontaktdaten Spalte 3
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
