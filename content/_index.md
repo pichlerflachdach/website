@@ -9,10 +9,4 @@ comm:
   type: mobile
 
 ---
-# b-coding UG & Co. KG
-
-## sub
-
-lorem ipsumcccccc
-
-ssssxxx
+# asd
