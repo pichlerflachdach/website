@@ -1,6 +1,4 @@
 ---
-pages:
-- test.md
 hide_body: false
 is_partial: false
 fields:
@@ -19,3 +17,5 @@ fields:
   type: boolean
   hidden: false
   default: true
+pages:
+- test.md

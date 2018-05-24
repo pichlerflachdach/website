@@ -1,6 +1,4 @@
 ---
-pages:
-- _index.md
 hide_body: false
 is_partial: false
 fields:
@@ -41,3 +39,5 @@ fields:
   name: comm
   config:
     labelField: text
+pages:
+- _index.md
