@@ -24,7 +24,7 @@ uber_uns:
     – Spenglerei ermöglicht uns umfangreiche und flexible Leistungen im Bereich Spenglerei
     und Metallbau. Wir wickeln ihr Bauvorhaben als Komplettpaket für Sie ab. </p><h3>Wir
     haben's bedacht!</h3>"
-  jahre_beschriftung: "Jahre  \nErfahrung"
+  jahre_beschriftung: "<p>Jahre<br>Erfahrung</p>"
   bild_rechts: "/uploads/2018/05/24/pichler-team.png"
   hintergrund: "/uploads/2018/05/24/stilelement_leistungen.png"
   jahre: 15
