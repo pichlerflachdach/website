@@ -39,5 +39,3 @@ fields:
   name: comm
   config:
     labelField: text
-pages:
-- _index.md

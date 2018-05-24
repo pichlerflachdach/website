@@ -1,8 +1,0 @@
----
-hide_body: false
-is_partial: true
-fields:
-- type: text
-- type: file
-  name: logo
-  label: Logo
