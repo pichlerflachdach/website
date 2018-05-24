@@ -7,35 +7,20 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: date
-  label: Date
-  type: datetime
-  hidden: false
-  default: ''
-- name: type
-  label: Type
-  type: text
-  hidden: false
-  default: ''
-- type: field_group_list
+- type: field_group
+  name: teaser_oben
+  label: Teaser oben
   fields:
   - type: text
-    label: Text
-    name: text
-  - type: select
-    name: type
+    name: titel_links_hochkant
+    label: Titel links hochkant
+  - type: textarea
+    name: beschriftung
+    label: Beschriftung
     config:
-      source:
-        type: simple
-      options:
-      - tel
-      - mail
-      - mobile
-      - www
-      - xing
-      - linkedin
-    label: Type
-  label: Comm
-  name: comm
-  config:
-    labelField: text
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: file
+    name: bild
+    label: Bild
