@@ -1,0 +1,5 @@
+{{ $t := .Site.GetPage "page" "global" "header.md" }}
+<header>
+  <img src="{{partial "imgUrl" (dict "img" $t.Params.logo "params" "" )}}" />
+
+</header>

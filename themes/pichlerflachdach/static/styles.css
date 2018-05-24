@@ -1,7 +1,13 @@
-h1 {
-  color: red;
+body {
+  font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
 }
-h2 {
-  color: blue;
-  
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+}
+header {
+  background: #8e9faf;
+  padding: 2rem;
 }

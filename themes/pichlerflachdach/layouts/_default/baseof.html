@@ -8,10 +8,12 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width,minimum-scale=1">
-  <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
+  <link rel="stylesheet" href="{{ $.Site.BaseURL }}lib/semantic.min.css">
+  <link rel="stylesheet" href="{{ $.Site.BaseURL }}styles.css">
 </head>
 
 <body>
+  {{ partial "header.html" . }}
   <main role="main">
     {{ block "main" . }}{{ end }}
   </main>

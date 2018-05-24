@@ -1,8 +1,8 @@
 {{ define "main" }}
 <div class="content">
-  {{ .Params.teaser_oben.beschriftung | markdownify }}
+  {{ .Params.teaser_oben.beschriftung | safeHTML }}
 </div>
 <div class="comm">
   {{ range .Params.comm }} {{ .txt }} {{ end }}
 </div>
-{{ end }}
+{{ with .Site.GetPage "page" "global" "header.md" }}{{ .Title }}{{ end }} {{ end }}

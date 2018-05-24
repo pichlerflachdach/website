@@ -1,4 +1,4 @@
-baseURL = "https://pichler-flachhdach.de"
+baseURL = "https://pichlerflachdach.github.io"
 languageCode = "de-de"
 theme = "pichlerflachdach"
 title = "Pichler Flachdach"
