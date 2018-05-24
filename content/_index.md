@@ -9,7 +9,7 @@ comm:
   type: mobile
 teaser_oben:
   titel_links_hochkant: home
-  beschriftung: "# Wir habens \n\n## bedacht\n\n### Ihr zertifizierter   \nFlachdachpartner"
+  beschriftung: "<h2>Wir habens</h2><h3>bedacht</h3><h4>Ihr zertifizierter Flachdachpartner</h4>"
   bild: "/uploads/2018/05/24/home_bild_oben.png"
 uber_uns:
   titel_links_hochkant: Pichler - Über uns
