@@ -12,8 +12,13 @@ zahl = "90.000"
 [menu.main]
 weight = 2
 [offene_stellen]
-stellen = []
-titel = ""
+titel = "<p>Wir Suchen DICH - jetzt bewerben!</p>"
+[[offene_stellen.stellen]]
+bezeichnung = "<p>Auszubildender</p>"
+[[offene_stellen.stellen]]
+bezeichnung = "<p>Dachdecker Helfer</p>"
+[[offene_stellen.stellen]]
+bezeichnung = "<p>Dachdecker Facharbeiter</p>"
 [team]
 titel = "<h2>Unser <em>Team</em></h2>"
 [[team.mitarbeiter]]
