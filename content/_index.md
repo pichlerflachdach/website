@@ -2,7 +2,6 @@
 title: Home
 date: 2018-05-06 20:19:54 +0200
 type: page
-menu: main
 teaser_oben:
   titel_links_hochkant: home
   beschriftung: "<h2>Wir habens</h2><h3>bedacht</h3><h4>Ihr zertifizierter Flachdachpartner</h4>"
@@ -72,5 +71,7 @@ staerken:
     Qualität mit bis 15 Jahren Garantie</p></li><li><p>Rund-um Service von der Planung
     bis hin zu Spenglerarbeiten</p></li><li><p>Flexible und termingerechte Abwicklung</p></li></ul>"
   hintergrund: "/uploads/2018/05/24/stärken_background_pic.jpg"
+menu:
+  main: {}
 
 ---
