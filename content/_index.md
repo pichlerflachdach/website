@@ -52,10 +52,23 @@ ausfuhrungen:
   - zahl: 15
     beschriftung: "<p>Bis zu 15 Jahren Garantie</p>"
 staerken:
-  titel_links_hochkant: ''
-  titel: ''
-  content_links: ''
-  content_rechts: ''
-  hintergrund: ''
+  titel_links_hochkant: Unsere Stärken mit Sarnafil
+  titel: Unsere Stärken
+  content_links: "<p><strong>Mit Sarnafil ein sicheres Flachdach</strong>  - Mit der
+    Erfahrung von mehreren hundert Millionen verlegten Quadratmetern bietet SIKA eine
+    sichere Lösung für jedes Flachdach. Die langlebige PVC freie Kunststoff-Dachabdichtungsbahn
+    aus flexiblem Polyolefin (FPO) der Marke Sarnafil bietet größtmögliche Gestaltungsfreiheit
+    für alle Flachdacharten und hat eine Lebenserwartung von 40-50 Jahren. Auf Wunsch
+    kann auch ein Garantiezertifikat auf Material und System erstellt werden. Je nach
+    Ausführung kann eine Garantie bis zu 15 Jahre gegeben werden. Sarnafil Kunststoffdachbahnen
+    sind dauerhaft, leistungsfähig und überzeugen mit ihren hervorragenden Material-Eigenschaften.</p><p>Wir
+    sind TÜV-Zertifizierter Sarnafil-Verarbeiter. Die Firma Sika legt nicht nur Wert
+    auf Produktqualität sondern auch auf geschulte Facharbeiter. Regelmäßige Schulungsmaßnahmen
+    gewährleisten eine fachgerechte Montage.</p>"
+  content_rechts: "<ul><li><p>Jahrelange Erfahrung</p></li><li><p>Motivierte und excellent
+    ausgebildete Mitarbeiter</p></li><li><p>TÜV-Zertifizierter Sarnafil Partner</p></li><li><p>Top
+    Qualität mit bis 15 Jahren Garantie</p></li><li><p>Rund-um Service von der Planung
+    bis hin zu Spenglerarbeiten</p></li><li><p>Flexible und termingerechte Abwicklung</p></li></ul>"
+  hintergrund: "/uploads/2018/05/24/stilelement_leistungen.png"
 
 ---
