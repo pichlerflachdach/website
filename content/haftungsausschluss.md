@@ -3,9 +3,7 @@ date = "2018-05-25T09:46:59+02:00"
 title = "Haftungsausschluss"
 
 +++
-Haftungsausschluss
-
-HAFTUNG FÜR INHALTE
+## HAFTUNG FÜR INHALTE
 
 Die Inhalte unserer Seiten wurden mit größter Sorgfalterstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen.
 
