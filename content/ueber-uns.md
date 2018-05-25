@@ -2,8 +2,13 @@
 date = "2018-05-25T09:48:59+02:00"
 title = "Über uns"
 [daten_und_fakten]
-kennzahlen = []
-titel_links_hochkant = ""
+titel_links_hochkant = "Daten & Fakten"
+[[daten_und_fakten.kennzahlen]]
+beschriftung = "<p>Jahre Erfahrung</p>"
+zahl = 15
+[[daten_und_fakten.kennzahlen]]
+beschriftung = "<p>Quadratmeter verlegte Folie</p>"
+zahl = "90.000"
 [menu.main]
 weight = 2
 [offene_stellen]
