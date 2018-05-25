@@ -14,20 +14,20 @@ fields:
   config:
     wysiwyg: true
     schema:
-      format: markdown
+      format: html-blocks
 - type: textarea
   name: kontaktdaten_spalte_2
   label: Kontaktdaten Spalte 2
   config:
     wysiwyg: true
     schema:
-      format: markdown
+      format: html-blocks
 - type: textarea
   name: kontaktdaten_spalte_3
   label: Kontaktdaten Spalte 3
   config:
     wysiwyg: true
     schema:
-      format: markdown
+      format: html-blocks
 pages:
 - global/footer.md
