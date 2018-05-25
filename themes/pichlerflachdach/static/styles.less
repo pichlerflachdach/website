@@ -1,15 +1,99 @@
 @green:rgb(0,110,148);
-@grey_dark:rgb(142,159,175);
-@grey_light:rgb(233,237,240);
-@grey:rgb(76,76,82);
+@grey_dark:rgb(142,159,175); // header
+@grey_light:rgb(233,237,240); // hintergrund
+@grey:rgb(76,76,82); // schhrift
 
 body{
-  font-family: "Arial Narrow",Arial, Helvetica, sans-serif;
+  font-family: "Arial Narrow",Arial, Helvetica, sans-serif!important;
+  color:@grey;
+  *:not(i){
+    font-family: "Arial Narrow",Arial, Helvetica, sans-serif!important;
+  }
+  background:white;
 }
 h1,h2,h3,h4{
   font-family: "Arial Narrow",Arial, Helvetica, sans-serif;
 }
+footer{
+  position:relative;
+  padding:4rem 0;
+  .logo{
+    max-height:20vh;
+  }
+  .cont1{
+    border-left:1px solid @green;
+  }
+}
 header{
   background:@grey_dark;
-  padding:2rem;
+  padding:2rem 0;
+  .logo{
+    max-width:40%;
+    max-height:20vh;
+  }
+  > .ui.container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .contacts{
+    min-width:200px;
+    .item{
+      .content{
+        .header{
+          display:flex;
+          justify-content:space-between;
+          align-items:center;
+          color:white!important;
+          font-weight:normal!important; 
+          i{
+            margin-left:1rem;
+          }
+        }
+      }
+    }
+    .ui.list .list>.item a.header:hover, .ui.list>.item a.header:hover{
+      color:white!important;
+    }
+  }
+}
+.vtitle{
+  transform: rotate(-90deg);
+  min-width:200px;
+  margin-left:-50px;
+  position:absolute;
+  text-align:center;
+  bottom:50%;
+  left:0;
+  text-transform:uppercase;
+  font-size:1.5rem;
+  letter-spacing: 0.2rem;
+}
+.home_topteaser{
+  position:relative;
+  min-height:200px;
+  padding:10vh 0;
+  .titles{
+    h2{
+      font-size:8vh;
+      font-weight:200;
+      line-height:1.1em;
+      margin:0;
+      padding:0;
+      text-transform: uppercase;
+    }
+    h3{
+      font-size:8vh;
+      line-height:1.1em;
+      margin:0;
+      padding:0;
+      color:@green;
+      text-transform: uppercase;
+    }
+    h4{
+      color:white;
+      font-size:1.5rem;
+      font-weight:normal;
+    }
+  }
 }

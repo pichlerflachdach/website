@@ -1,5 +1,10 @@
 body {
-  font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+  font-family: "Arial Narrow", Arial, Helvetica, sans-serif !important;
+  color: #4c4c52;
+  background: white;
+}
+body *:not(i) {
+  font-family: "Arial Narrow", Arial, Helvetica, sans-serif !important;
 }
 h1,
 h2,
@@ -7,7 +12,81 @@ h3,
 h4 {
   font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
 }
+footer {
+  position: relative;
+  padding: 4rem 0;
+}
+footer .logo {
+  max-height: 20vh;
+}
+footer .cont1 {
+  border-left: 1px solid #006e94;
+}
 header {
   background: #8e9faf;
-  padding: 2rem;
+  padding: 2rem 0;
+}
+header .logo {
+  max-width: 40%;
+  max-height: 20vh;
+}
+header > .ui.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .contacts {
+  min-width: 200px;
+}
+header .contacts .item .content .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white!important;
+  font-weight: normal!important;
+}
+header .contacts .item .content .header i {
+  margin-left: 1rem;
+}
+header .contacts .ui.list .list > .item a.header:hover,
+header .contacts .ui.list > .item a.header:hover {
+  color: white!important;
+}
+.vtitle {
+  transform: rotate(-90deg);
+  min-width: 200px;
+  margin-left: -50px;
+  position: absolute;
+  text-align: center;
+  bottom: 50%;
+  left: 0;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+}
+.home_topteaser {
+  position: relative;
+  min-height: 200px;
+  padding: 10vh 0;
+}
+.home_topteaser .titles h2 {
+  font-size: 8vh;
+  font-weight: 200;
+  line-height: 1.1em;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+.home_topteaser .titles h3 {
+  font-size: 8vh;
+  line-height: 1.1em;
+  margin: 0;
+  padding: 0;
+  color: #006e94;
+  text-transform: uppercase;
+}
+.home_topteaser .titles h4 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: normal;
 }

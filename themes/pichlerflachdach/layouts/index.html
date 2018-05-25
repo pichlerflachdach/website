@@ -1,8 +1,9 @@
 {{ define "main" }}
-<div class="content">
-  {{ .Params.teaser_oben.beschriftung | safeHTML }}
+<div class="home_topteaser" style="background:url({{partial "imgUrl" (dict "img" .Params.teaser_oben.bild "params" "c_scale,h_400" )}}) center center; background-size:cover">
+  <div class="vtitle">{{.Params.teaser_oben.titel_links_hochkant}}</div>
+  <div class="ui container">
+    <div class="titles">{{ .Params.teaser_oben.beschriftung | safeHTML }}</div>
+  </div>
 </div>
-<div class="comm">
-  {{ range .Params.comm }} {{ .txt }} {{ end }}
-</div>
-{{ with .Site.GetPage "page" "global" "header.md" }}{{ .Title }}{{ end }} {{ end }}
+
+{{ end }}

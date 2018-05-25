@@ -1,0 +1,20 @@
+{{ $t := .Site.GetPage "page" "global" "footer.md" }}
+<footer>
+  <div class="vtitle">{{$t.Params.titel_links_hochkant}}</div>
+  <div class="ui container">
+    <div class="ui stackable four column grid">
+      <div class="column">
+        <a href="/">
+          <img class="logo" src="{{partial "imgUrl" (dict "img" $t.Params.logo "params" "" )}}" />
+        </a>
+      </div>
+      <div class="column cont1">
+
+      </div>
+      <div class="column">
+
+      </div>
+      <div class="column"></div>
+    </div>
+  </div>
+</footer>
