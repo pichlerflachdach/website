@@ -17,6 +17,18 @@ titel = ""
 [team]
 titel = "<h2>Unser <em>Team</em></h2>"
 [[team.mitarbeiter]]
+bild = "/uploads/2018/05/25/pichler_stefan.jpg"
+name = "Stefan Pichler"
+position = "Geschäftsführer"
+[[team.mitarbeiter]]
+bild = "/uploads/2018/05/25/protz.jpg"
+name = "Thomas Protz"
+position = "Einkauf"
+[[team.mitarbeiter]]
+bild = "/uploads/2018/05/25/ganiev.jpg"
+name = "Andreas Ganiev"
+position = "Vorarbeiter"
+[[team.mitarbeiter]]
 bild = "/uploads/2018/05/25/korec.jpg"
 name = "Karl Korec"
 position = "Vorarbeiter"
@@ -32,10 +44,6 @@ position = "Spengler - Folienschweißer"
 bild = "/uploads/2018/05/25/benda.jpg"
 name = "Paevel Benda"
 position = "Folienschweißer"
-[[team.mitarbeiter]]
-bild = "/uploads/2018/05/25/pichler_stefan.jpg"
-name = "Stefan Pichler"
-position = "Geschäftsführer"
 [[team.mitarbeiter]]
 name = "Benjamin Seiz"
 position = "Helfer"
