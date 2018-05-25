@@ -75,5 +75,24 @@ fields:
       wysiwyg: true
       schema:
         format: html-blocks
+- type: field_group
+  name: ausfuhrungen
+  label: Ausführungen
+  fields:
+  - type: text
+    name: titel
+    label: Titel
+  - type: field_group_list
+    label: Ausführungen
+    name: ausfuhrungen
+    fields:
+    - type: text
+      name: titel
+      label: Titel
+    - type: file
+      name: bild
+      label: Bild
+    config:
+      labelField: titel
 pages:
 - _index.md
