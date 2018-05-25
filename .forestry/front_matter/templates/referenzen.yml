@@ -12,6 +12,19 @@ fields:
   - type: text
     name: bezeichnung
     label: Bezeichnung
+  - type: select
+    name: kategorie
+    config:
+      source:
+        type: simple
+      options:
+      - Nacktdach
+      - Gründach
+      - Sanierung
+      - Kies / Fliesen / Holz
+      - Balkon / Terrasse / Garage
+      - Gewerbe / Industrie
+    label: Kategorie
   - type: image_gallery
     name: bilder
     label: Bilder
