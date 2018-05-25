@@ -15,3 +15,5 @@ fields:
   - type: image_gallery
     name: bilder
     label: Bilder
+pages:
+- referenzen.md
