@@ -25,5 +25,8 @@ fields:
 - type: file
   name: hintergrund
   label: Hintergrund
+- type: text
+  name: seo_description
+  label: SEO Description
 pages:
 - kontakt.md
