@@ -113,5 +113,32 @@ fields:
         wysiwyg: true
         schema:
           format: html-blocks
+- type: field_group
+  name: staerken
+  label: Stärken
+  fields:
+  - type: text
+    name: titel_links_hochkant
+    label: Titel links hochkant
+  - type: text
+    name: titel
+    label: Titel
+  - type: textarea
+    name: content_links
+    label: Content links
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - type: textarea
+    name: content_rechts
+    label: Content rechts
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - type: file
+    name: hintergrund
+    label: Hintergrundbild
 pages:
 - _index.md
