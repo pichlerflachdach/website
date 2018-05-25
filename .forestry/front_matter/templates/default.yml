@@ -13,7 +13,6 @@ fields:
   hidden: false
   default: false
 pages:
-- ueber-uns.md
 - referenzen.md
 - kontakt.md
 - datenschutz.md
