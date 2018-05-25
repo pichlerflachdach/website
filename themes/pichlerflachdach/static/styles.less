@@ -33,9 +33,53 @@ h1,h2,h3,h4{
   align-items:center;
   height:100%;
 }
+#headermenu{
+  display:block;
+  height:0;
+  overflow:hidden;
+  transition-property: all;
+  transition-duration: 5s;
+  transition-timing-function: ease-in-out;
+  &.open{
+    height:auto;
+    transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out;
+  }
+  .container{
+    display:flex;
+    justify-content:flex-end;
+  }
+  
+  a{
+    color:white;
+    font-size:0.9rem;
+    padding:0 0.5rem;
+    line-height:0.9rem;
+    border-right:1px solid white;
+    &:last-child{
+      border:none!important;
+    }
+  }
+}
 footer{
   position:relative;
   padding:4rem 0;
+  .footermenu{
+    margin-top:4rem;
+    display:flex;
+    justify-content:center;
+    a{
+      color:@grey;
+      font-size:0.9rem;
+      padding:0 0.5rem;
+      line-height:0.9rem;
+      border-right:1px solid @grey;
+      &:last-child{
+        border:none!important;
+      }
+    }
+  }
   .logo{
     max-height:20vh;
   }
