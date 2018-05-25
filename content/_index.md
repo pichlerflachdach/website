@@ -44,7 +44,13 @@ ausfuhrungen:
     bild: "/uploads/2018/05/24/photovoltaik_icon.png"
   - titel: Begrünung
     bild: "/uploads/2018/05/24/begrüngung_icon.png"
-  kennzahlen: []
+  kennzahlen:
+  - zahl: 40
+    beschriftung: "<p>Jahre Lebenserwartung</p>"
+  - zahl: 90
+    beschriftung: "<p>Tausend Quadratmeter verlegte Folie</p>"
+  - zahl: 15
+    beschriftung: "<p>Bis zu 15 Jahren Garantie</p>"
 staerken:
   titel_links_hochkant: ''
   titel: ''
