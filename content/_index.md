@@ -26,7 +26,8 @@ uber_uns:
 leistungen:
   titel_links_hochkant: Leistungen
   bild: "/uploads/2018/05/24/leistungen_bild.png"
-  content: "<h2>Flachdach &amp; ABDICHTUNGEN</h2><ul><li><p>Neubauten und Sanierungen</p></li><li><p>Industriegebäude</p></li><li><p>Geschäftsgebäude</p></li><li><p>Hallendächer</p></li><li><p>Wohngebäude</p></li><li><p>Terrassen</p></li><li><p>Balkone</p></li><li><p>Garagen</p></li><li><p>Dachkomplett-Lösungen
+  content: "<h2>Flachdach <em>&amp; ABDICHTUNGEN</em></h2><ul><li><p>Neubauten und
+    Sanierungen</p></li><li><p>Industriegebäude</p></li><li><p>Geschäftsgebäude</p></li><li><p>Hallendächer</p></li><li><p>Wohngebäude</p></li><li><p>Terrassen</p></li><li><p>Balkone</p></li><li><p>Garagen</p></li><li><p>Dachkomplett-Lösungen
     (inklusive Spenglerarbeiten)</p></li></ul>"
   hintergrund: "/uploads/2018/05/24/stilelement_leistungen.png"
 ausfuhrungen:
