@@ -44,3 +44,27 @@ fields:
         wysiwyg: true
         schema:
           format: html-blocks
+- type: field_group
+  name: team
+  label: Team
+  fields:
+  - type: textarea
+    name: titel
+    label: Titel
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - type: field_group_list
+    name: mitarbeiter
+    label: Mitarbeiter
+    fields:
+    - type: text
+      name: name
+      label: Name
+    - type: text
+      label: Position
+      name: position
+    - type: file
+      name: bild
+      label: Bild
