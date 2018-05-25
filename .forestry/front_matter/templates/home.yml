@@ -58,5 +58,22 @@ fields:
   - type: file
     name: hintergrund
     label: Hintergrund
+- type: field_group
+  name: leistungen
+  label: Leistungen
+  fields:
+  - type: text
+    label: Titel links hochkant
+    name: titel_links_hochkant
+  - type: file
+    name: bild
+    label: Bild
+  - type: textarea
+    name: content
+    label: Content
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
 pages:
 - _index.md
