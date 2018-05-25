@@ -143,5 +143,8 @@ fields:
   - type: file
     name: hintergrund
     label: Hintergrundbild
+- type: text
+  name: seo_description
+  label: SEO Description
 pages:
 - _index.md
