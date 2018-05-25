@@ -65,6 +65,9 @@ fields:
       wysiwyg: true
       schema:
         format: html-blocks
+  - type: text
+    name: titel_links_hochkant
+    label: Titel links hochkant
   - type: field_group_list
     name: mitarbeiter
     label: Mitarbeiter
