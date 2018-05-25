@@ -1,0 +1,27 @@
+---
+hide_body: true
+is_partial: false
+fields:
+- type: text
+  name: titel
+  label: Titel
+- type: text
+  name: titel_links_hochkant
+  label: Titel links hochkant
+- type: textarea
+  name: content_links
+  label: Content links
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: textarea
+  name: content_rechts
+  label: Content rechts
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: file
+  name: hintergrund
+  label: Hintergrund
