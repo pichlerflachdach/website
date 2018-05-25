@@ -26,4 +26,53 @@
     </div>
   </div>
 </div>
+<div class="home_services" style="background:url({{partial "imgUrl" (dict "img" .Params.leistungen.hintergrund "params" "c_scale,h_600" )}}) left center no-repeat; background-size:contain;">
+  <div class="vtitle">{{.Params.leistungen.titel_links_hochkant}}</div>
+  <div class="ui container">
+    <div class="ui stackable two column grid">
+      <div class="column imgcol">
+        <img src="{{partial "imgUrl" (dict "img" .Params.leistungen.bild "params" "c_scale,w_700" )}}" />
+      </div>
+      <div class="column">
+        {{ .Params.leistungen.content | safeHTML }}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="home_ausf">
+  <h2>{{ .Params.ausfuhrungen.titel }}</h2>
+  <div class="ui container">
+    <div class="ui stackable six column grid">
+      {{ range .Params.ausfuhrungen.ausfuhrungen }}
+      <div class="column imgcol">
+        <img src="{{partial "imgUrl" (dict "img" .bild "params" "c_scale,w_360" )}}" />
+        <div class="label">{{.titel}}</div>
+      </div>
+      {{ end }}
+    </div>
+    <div class="ui stackable three column grid">
+      {{ range .Params.ausfuhrungen.kennzahlen }}
+      <div class="column knz">
+        <div class="year">{{.zahl}}</div>
+        <div class="label">{{ .beschriftung | safeHTML }}</div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+<div class="home_strk" style="background:url({{partial "imgUrl" (dict "img" .Params.staerken.hintergrund "params" "c_scale,h_400" )}}) center center; background-size:cover">
+  <div class="vtitle">{{.Params.staerken.titel_links_hochkant}}</div>
+  <h2>{{.Params.staerken.titel}}</h2>
+  <div class="ui container">
+    <div class="ui stackable two column grid">
+      <div class="column">
+        {{ .Params.staerken.content_links | safeHTML }}
+      </div>
+      <div class="column">
+        {{ .Params.staerken.content_rechts | safeHTML }}
+      </div>
+    </div>
+  </div>
+</div>
+
 {{ end }}

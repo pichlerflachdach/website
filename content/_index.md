@@ -2,6 +2,7 @@
 title: Home
 date: 2018-05-06 20:19:54 +0200
 type: page
+menu: main
 teaser_oben:
   titel_links_hochkant: home
   beschriftung: "<h2>Wir habens</h2><h3>bedacht</h3><h4>Ihr zertifizierter Flachdachpartner</h4>"

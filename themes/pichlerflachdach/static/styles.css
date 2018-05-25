@@ -112,6 +112,91 @@ header .contacts .ui.list > .item a.header:hover {
   font-size: 1.5rem;
   font-weight: normal;
 }
+.home_strk {
+  position: relative;
+  min-height: 200px;
+  color: white;
+}
+.home_strk .vtitle {
+  color: white;
+}
+.home_strk h2 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 3em;
+}
+.home_strk .column {
+  color: white;
+}
+.home_strk .column ul {
+  padding-left: 1em;
+  margin-top: 0;
+}
+.home_services {
+  margin-top: 4rem;
+  position: relative;
+  min-height: 200px;
+  padding: 2rem 0;
+}
+.home_services .imgcol img {
+  width: 100%;
+}
+.home_services h2 {
+  font-weight: normal;
+  color: #006e94;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+}
+.home_services h2 em {
+  color: #8e9faf;
+  font-style: normal;
+}
+.home_services ul {
+  margin: 0;
+  padding-left: 1em;
+}
+.home_ausf {
+  margin-top: 2rem;
+  position: relative;
+  min-height: 200px;
+}
+.home_ausf h2 {
+  line-height: 3em;
+  background: #e9edf0;
+  text-align: center;
+  color: #006e94;
+  text-transform: uppercase;
+}
+.home_ausf .imgcol {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.home_ausf .imgcol img {
+  max-width: 80%;
+}
+.home_ausf .imgcol .label {
+  color: #006e94;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.home_ausf .knz .label {
+  color: #4c4c52;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.home_ausf .knz .year {
+  color: #006e94;
+  font-size: 10rem;
+  font-weight: bold;
+  letter-spacing: -0.05em;
+  line-height: 10rem;
+  text-align: center;
+}
 .home_about {
   margin-top: 4rem;
   background: #e9edf0;
