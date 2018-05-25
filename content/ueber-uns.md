@@ -16,6 +16,7 @@ titel = ""
 content_links = ""
 content_rechts = ""
 titel_links_hhochkant = ""
+titel_links_hochkant = "Über uns"
 [vision]
 content = ""
 hintergrund = ""
