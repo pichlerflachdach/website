@@ -7,8 +7,8 @@ fields:
   label: "Über uns"
   fields:
   - type: text
-    name: titel_links_hhochkant
-    label: Titel links hhochkant
+    name: titel_links_hochkant
+    label: Titel links hochkant
   - type: textarea
     name: content_links
     label: Content links
