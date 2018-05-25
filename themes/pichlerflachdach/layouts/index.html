@@ -5,5 +5,25 @@
     <div class="titles">{{ .Params.teaser_oben.beschriftung | safeHTML }}</div>
   </div>
 </div>
-
+<div class="home_about">
+  <div class="vtitle">{{.Params.uber_uns.titel_links_hochkant}}</div>
+  <div class="ui container" style="background:url({{partial "imgUrl" (dict "img" .Params.uber_uns.hintergrund "params" "c_scale,h_400" )}}) 45% center no-repeat; background-size:contain;">
+    <div class="ui stackable two column grid">
+      <div class="column">
+        {{ .Params.uber_uns.content | safeHTML }}
+      </div>
+      <div class="column imgcol">
+        <img src="{{partial "imgUrl" (dict "img" .Params.uber_uns.bild_rechts "params" "c_scale,w_700" )}}" />
+        <div class="expbox">
+          <div class="years">
+            {{ .Params.uber_uns.jahre }}
+          </div>
+          <div class="txt">
+            {{ .Params.uber_uns.jahre_beschriftung | safeHTML }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 {{ end }}

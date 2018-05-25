@@ -12,6 +12,11 @@ h3,
 h4 {
   font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
 }
+.flexcontainer {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
 footer {
   position: relative;
   padding: 4rem 0;
@@ -21,6 +26,23 @@ footer .logo {
 }
 footer .cont1 {
   border-left: 1px solid #006e94;
+}
+footer h2 {
+  color: #006e94;
+  font-size: 1.2rem;
+}
+footer .column.kont h2 {
+  color: #006e94;
+  font-size: 1.2rem;
+}
+footer .column.kont img {
+  max-width: 100%;
+}
+footer .column.kont p {
+  line-height: 1.8em;
+}
+footer .column.kont a {
+  color: #4c4c52;
 }
 header {
   background: #8e9faf;
@@ -89,4 +111,60 @@ header .contacts .ui.list > .item a.header:hover {
   color: white;
   font-size: 1.5rem;
   font-weight: normal;
+}
+.home_about {
+  margin-top: 4rem;
+  background: #e9edf0;
+  position: relative;
+  min-height: 200px;
+  padding: 2rem 0;
+}
+.home_about .vtitle {
+  margin-left: -65px;
+}
+.home_about .imgcol img {
+  width: 100%;
+  margin: -4rem 0 0 0;
+}
+.home_about h1 {
+  font-weight: normal;
+  color: #006e94;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+}
+.home_about h1 em {
+  color: #8e9faf;
+  font-style: normal;
+}
+.home_about h3 {
+  font-weight: normal;
+  color: #006e94;
+  font-size: 1.8rem;
+}
+.home_about h4 {
+  margin: 1rem 0;
+}
+.home_about strong {
+  color: #006e94;
+}
+.home_about .expbox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: -3rem;
+}
+.home_about .expbox .years {
+  font-size: 8rem;
+  color: #006e94;
+  font-weight: bold;
+  line-height: 0.8em;
+  letter-spacing: -10px;
+  margin-right: 20px;
+}
+.home_about .expbox .txt {
+  font-size: 2rem;
+  line-height: 1em;
+}
+.home_about .expbox .txt p {
+  line-height: 1em;
 }

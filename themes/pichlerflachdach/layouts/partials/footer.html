@@ -2,19 +2,31 @@
 <footer>
   <div class="vtitle">{{$t.Params.titel_links_hochkant}}</div>
   <div class="ui container">
-    <div class="ui stackable four column grid">
-      <div class="column">
+    <div class="ui stackable grid">
+      <div class="four wide column">
         <a href="/">
           <img class="logo" src="{{partial "imgUrl" (dict "img" $t.Params.logo "params" "" )}}" />
         </a>
       </div>
-      <div class="column cont1">
-
+      <div class="twelve wide column cont1">
+        <div class="flexcontainer">
+          <div>
+            {{ $t.Params.titel_footer | safeHTML }}
+            <div class="ui stackable three column grid">
+              <div class="column kont">
+                {{ $t.Params.kontaktdaten_spalte_1 | safeHTML }}
+              </div>
+              <div class="column kont">
+                {{ $t.Params.kontaktdaten_spalte_2 | safeHTML }}
+              </div>
+              <div class="column kont">
+                {{ $t.Params.kontaktdaten_spalte_3 | safeHTML }}
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="column">
-
-      </div>
-      <div class="column"></div>
     </div>
+  </div>
   </div>
 </footer>
