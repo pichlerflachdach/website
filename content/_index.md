@@ -53,7 +53,7 @@ ausfuhrungen:
   - zahl: 15
     beschriftung: "<p>Bis zu 15 Jahren Garantie</p>"
 staerken:
-  titel_links_hochkant: Unsere Stärken mit Sarnafil
+  titel_links_hochkant: Unsere Stärken
   titel: Unsere Stärken
   content_links: "<p><strong>Mit Sarnafil ein sicheres Flachdach</strong>  - Mit der
     Erfahrung von mehreren hundert Millionen verlegten Quadratmetern bietet SIKA eine
