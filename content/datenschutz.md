@@ -1,8 +1,10 @@
 +++
 date = "2018-05-25T09:47:15+02:00"
 title = "Datenschutz"
+type = "page"
 [menu.footer]
 weight = 1
+
 +++
 ## Datenschutzerklärung
 

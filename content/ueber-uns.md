@@ -1,7 +1,8 @@
 +++
 date = "2018-05-25T09:48:59+02:00"
-title = "Über uns"
 layout = "ueber-uns"
+title = "Über uns"
+type = "page"
 [daten_und_fakten]
 titel_links_hochkant = "Daten"
 [[daten_und_fakten.kennzahlen]]
@@ -66,4 +67,3 @@ hintergrund = "/uploads/2018/05/24/fliesen_icon.png"
 titel_links_hochkant = "Unsere Vision"
 
 +++
-
