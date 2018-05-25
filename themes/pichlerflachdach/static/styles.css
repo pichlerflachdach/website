@@ -12,6 +12,18 @@ h3,
 h4 {
   font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
 }
+.standard h1 {
+  color: #006e94;
+  text-transform: uppercase;
+  margin: 2rem 0;
+  font-weight: normal;
+  font-size: 2rem;
+}
+.standard h2 {
+  font-weight: normal;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
 .flexcontainer {
   display: flex;
   align-items: center;
@@ -252,4 +264,38 @@ header .contacts .ui.list > .item a.header:hover {
 }
 .home_about .expbox .txt p {
   line-height: 1em;
+}
+.about_about {
+  margin-top: 4rem;
+  position: relative;
+  min-height: 200px;
+  padding: 2rem 0;
+}
+.about_about .imgcol img {
+  width: 100%;
+}
+.about_about h2 {
+  font-weight: normal;
+  color: #006e94;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+}
+.about_about h2 em {
+  color: #8e9faf;
+  font-style: normal;
+}
+.about_about ul {
+  margin: 0;
+  padding-left: 1em;
+}
+.about_about h4 {
+  margin: 1rem 0;
+}
+.about_about strong {
+  color: #006e94;
+}
+.about_about h3 {
+  font-weight: normal;
+  color: #006e94;
+  font-size: 1.8rem;
 }

@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="about_about" style="background:url({{partial "imgUrl" (dict "img" .Params.uber_uns.hintergrund "params" "c_scale,h_600" )}}) left center no-repeat; background-size:contain;">
+  <div class="vtitle">{{.Params.uber_uns.titel_links_hochkant}}</div>
+  <div class="ui container">
+    <div class="ui stackable two column grid">
+      <div class="column">
+        {{ .Params.uber_uns.content_links | safeHTML }}
+      </div>
+      <div class="column">
+        {{ .Params.uber_uns.content_rechts | safeHTML }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

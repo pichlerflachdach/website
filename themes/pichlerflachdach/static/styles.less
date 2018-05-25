@@ -14,6 +14,20 @@ body{
 h1,h2,h3,h4{
   font-family: "Arial Narrow",Arial, Helvetica, sans-serif;
 }
+.standard{
+  h1{
+    color:@green;
+    text-transform: uppercase;
+    margin:2rem 0;
+    font-weight:normal;
+    font-size:2rem;
+  }
+  h2{
+    font-weight:normal;
+    font-size:1.5rem;
+    text-transform: uppercase;
+  }
+}
 .flexcontainer{
   display:flex;
   align-items:center;
@@ -266,5 +280,41 @@ header{
       }
       line-height:1em;
     }
+  }
+}
+.about_about{
+  margin-top:4rem;
+  position:relative;
+  min-height:200px;
+  padding:2rem 0;
+  .imgcol{
+    img{
+      width:100%;
+    }
+  }
+  h2{
+    font-weight:normal;
+    color:@green;
+    text-transform:uppercase;
+    font-size:2.2rem;
+    em{
+      color:@grey_dark;
+      font-style: normal;
+    }
+  }
+  ul{
+    margin:0;
+    padding-left:1em;
+  }
+  h4{
+    margin:1rem 0;
+  }
+  strong{
+    color:@green;
+  }
+  h3{
+    font-weight:normal;
+    color:@green;
+    font-size:1.8rem;
   }
 }
