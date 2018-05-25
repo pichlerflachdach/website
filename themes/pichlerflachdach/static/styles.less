@@ -172,7 +172,7 @@ header{
     text-transform:uppercase;
     font-size:2.2rem;
     em{
-      color:@grey_dark;
+      color:@grey;
       font-style: normal;
     }
   }
@@ -245,7 +245,7 @@ header{
     text-transform:uppercase;
     font-size:2.2rem;
     em{
-      color:@grey_dark;
+      color:@grey;
       font-style: normal;
     }
   }
@@ -283,7 +283,6 @@ header{
   }
 }
 .about_about{
-  margin-top:4rem;
   position:relative;
   min-height:200px;
   padding:2rem 0;
@@ -292,16 +291,19 @@ header{
       width:100%;
     }
   }
-  h2{
+  h1{
     font-weight:normal;
     color:@green;
     text-transform:uppercase;
     font-size:2.2rem;
+    text-align:center;
+    margin:2rem 0;
     em{
-      color:@grey_dark;
+      color:@grey;
       font-style: normal;
     }
   }
+
   ul{
     margin:0;
     padding-left:1em;
@@ -316,5 +318,28 @@ header{
     font-weight:normal;
     color:@green;
     font-size:1.8rem;
+  }
+}
+.about_data{
+  position:relative;
+  padding:2rem 0;
+  margin-top:2rem;
+  background:@grey_light;
+  .knz{
+    .label{
+      color: @grey;
+      text-transform:uppercase;
+      text-align:center;
+      font-size:1.6rem;
+    }
+    .year{
+      color:@green;
+      font-size:10rem;
+      font-weight:bold;
+      letter-spacing: -0.05em;
+      line-height:10rem;
+      text-align: center;
+      margin-top:-6rem;
+    }
   }
 }

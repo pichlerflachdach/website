@@ -2,6 +2,7 @@
 <div class="about_about" style="background:url({{partial "imgUrl" (dict "img" .Params.uber_uns.hintergrund "params" "c_scale,h_600" )}}) left center no-repeat; background-size:contain;">
   <div class="vtitle">{{.Params.uber_uns.titel_links_hochkant}}</div>
   <div class="ui container">
+    {{ .Params.uber_uns.titel | safeHTML }}
     <div class="ui stackable two column grid">
       <div class="column">
         {{ .Params.uber_uns.content_links | safeHTML }}
@@ -9,6 +10,19 @@
       <div class="column">
         {{ .Params.uber_uns.content_rechts | safeHTML }}
       </div>
+    </div>
+  </div>
+</div>
+<div class="about_data">
+  <div class="vtitle">{{.Params.daten_und_fakten.titel_links_hochkant}}</div>
+  <div class="ui container">
+    <div class="ui stackable two column grid">
+      {{ range .Params.daten_und_fakten.kennzahlen }}
+      <div class="column knz">
+        <div class="year">{{.zahl}}</div>
+        <div class="label">{{ .beschriftung | safeHTML }}</div>
+      </div>
+      {{ end }}
     </div>
   </div>
 </div>

@@ -3,7 +3,7 @@ date = "2018-05-25T09:48:59+02:00"
 title = "Über uns"
 layout = "ueber-uns"
 [daten_und_fakten]
-titel_links_hochkant = "Daten & Fakten"
+titel_links_hochkant = "Daten"
 [[daten_und_fakten.kennzahlen]]
 beschriftung = "<p>Jahre Erfahrung</p>"
 zahl = 15
