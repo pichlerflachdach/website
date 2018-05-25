@@ -30,5 +30,8 @@ fields:
     label: Bilder
   config:
     labelField: bezeichnung
+- type: text
+  name: seo_description
+  label: SEO Description
 pages:
 - referenzen.md
