@@ -85,3 +85,25 @@ fields:
   - type: file
     name: hintergrund
     label: Hintergrund
+- type: field_group
+  name: offene_stellen
+  label: Offene Stellen
+  fields:
+  - type: textarea
+    name: titel
+    label: Titel
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - type: field_group_list
+    name: stellen
+    label: Stellen
+    fields:
+    - type: textarea
+      name: bezeichnung
+      label: Bezeichnung
+      config:
+        wysiwyg: true
+        schema:
+          format: html-blocks
