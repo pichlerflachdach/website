@@ -17,6 +17,14 @@ titel = ""
 [team]
 titel = "<h2>Unser <em>Team</em></h2>"
 [[team.mitarbeiter]]
+bild = "/uploads/2018/05/25/skypalla.jpg"
+name = "Jiri Skypala"
+position = "Folienschweißer"
+[[team.mitarbeiter]]
+bild = "/uploads/2018/05/25/hubeny.jpg"
+name = "Jan Hubeny"
+position = "Spengler - Folienschweißer"
+[[team.mitarbeiter]]
 bild = "/uploads/2018/05/25/benda.jpg"
 name = "Paevel Benda"
 position = "Folienschweißer"
