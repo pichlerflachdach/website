@@ -18,6 +18,7 @@ fields:
   hidden: false
   default: true
 pages:
+- ueber-uns.md
 - referenzen.md
 - kontakt.md
 - datenschutz.md
