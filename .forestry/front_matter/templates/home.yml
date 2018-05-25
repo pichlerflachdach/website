@@ -75,6 +75,9 @@ fields:
       wysiwyg: true
       schema:
         format: html-blocks
+  - type: file
+    label: Hintergrund
+    name: hintergrund
 - type: field_group
   name: ausfuhrungen
   label: Ausführungen
