@@ -5,7 +5,7 @@ titel = ""
 title = "Referenzen"
 type = "page"
 [menu.main]
-weight = 1
+weight = 2
 [[referenzen]]
 bezeichnung = "Nacktdach Sanierung Markmiller Deggendorf"
 bilder = ["/uploads/2018/05/25/nacktdach.jpeg", "/uploads/2018/05/25/nacktdach2.jpeg", "/uploads/2018/05/25/nacktdach1.jpeg"]
