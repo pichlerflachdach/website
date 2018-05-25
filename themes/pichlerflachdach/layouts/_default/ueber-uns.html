@@ -45,4 +45,14 @@
   <div class="vtitle">{{.Params.vision.titel_links_hochkant}}</div>
   {{ .Params.vision.content | safeHTML }}
 </div>
+<div class="about_st">
+  <h2>{{ .Params.offene_stellen.titel | safeHTML }}</h2>
+  <div class="ui stackable three column grid">
+    {{ range .Params.offene_stellen.stellen }}
+    <div class="column os">
+      <div class="oss">{{ .bezeichnung | safeHTML }}</div>
+    </div>
+    {{ end }}
+  </div>
+</div>
 {{ end }}

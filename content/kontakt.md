@@ -6,6 +6,7 @@ hintergrund = "/uploads/2018/05/24/stilelement_leistungen.png"
 titel = "Kontakt"
 titel_links_hochkant = "Adresse"
 title = "Kontakt"
+layout = "kontakt"
 [menu.main]
 weight = 3
 

@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="contact" style="background:url({{partial "imgUrl" (dict "img" .Params.hintergrund "params" "c_scale,h_600" )}}) left center no-repeat; background-size:contain;">
+  <div class="vtitle">{{.Params.titel_links_hochkant}}</div>
+  <div class="ui container">
+    <h1>{{ .Params.titel | safeHTML }}</h1>
+    <div class="ui stackable two column grid">
+      <div class="column">
+        {{ .Params.content_links | safeHTML }}
+      </div>
+      <div class="column">
+        {{ .Params.content_rechts | safeHTML }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
