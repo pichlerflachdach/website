@@ -26,4 +26,23 @@
     </div>
   </div>
 </div>
+<div class="about_team">
+  <div class="vtitle">{{.Params.team.titel_links_hochkant}}</div>
+  <div class="ui container">
+    {{ .Params.team.titel | safeHTML }}
+    <div class="ui stackable four column grid">
+      {{ range .Params.team.mitarbeiter }}
+      <div class="column imgcol">
+        <img src="{{partial "imgUrl" (dict "img" .bild "params" "c_scale,w_360" )}}" />
+        <div class="label">{{.name}}</div>
+        <div class="pos">{{.position}}</div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+<div class="about_vision" style="background:url({{partial "imgUrl" (dict "img" .Params.vision.hintergrund "params" "c_scale,h_600" )}}) left center no-repeat rgb(0,110,148); background-size:contain;">
+  <div class="vtitle">{{.Params.vision.titel_links_hochkant}}</div>
+  {{ .Params.vision.content | safeHTML }}
+</div>
 {{ end }}

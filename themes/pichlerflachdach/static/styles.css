@@ -321,3 +321,45 @@ header .contacts .ui.list > .item a.header:hover {
   text-align: center;
   margin-top: -6rem;
 }
+.about_team {
+  position: relative;
+  min-height: 200px;
+  padding: 2rem 0;
+}
+.about_team h2 {
+  font-weight: normal;
+  color: #006e94;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+.about_team h2 em {
+  color: #4c4c52;
+  font-style: normal;
+}
+.about_team .label {
+  color: #006e94;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.about_team .pos {
+  font-style: italic;
+}
+.about_team .imgcol img {
+  width: 100%;
+}
+.about_vision {
+  position: relative;
+  min-height: 200px;
+  padding: 2rem 0;
+}
+.about_vision .vtitle {
+  color: white;
+}
+.about_vision p {
+  padding: 0 4rem;
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+}
