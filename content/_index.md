@@ -30,8 +30,20 @@ leistungen:
     (inklusive Spenglerarbeiten)</p></li></ul>"
   hintergrund: "/uploads/2018/05/24/sarnafil.png"
 ausfuhrungen:
-  titel: ''
-  ausfuhrungen: []
+  titel: Ausführungen
+  ausfuhrungen:
+  - titel: Nacktdach
+    bild: "/uploads/2018/05/24/nacktdach_icon.png"
+  - titel: Kiesel
+    bild: "/uploads/2018/05/24/kiesel_icon.png"
+  - titel: Holz
+    bild: "/uploads/2018/05/24/holz_icon.png"
+  - titel: Fliesen
+    bild: "/uploads/2018/05/24/fliesen_icon.png"
+  - titel: Photovoltaik
+    bild: "/uploads/2018/05/24/photovoltaik_icon.png"
+  - titel: Begrünung
+    bild: "/uploads/2018/05/24/begrüngung_icon.png"
   kennzahlen: []
 staerken:
   titel_links_hochkant: ''
