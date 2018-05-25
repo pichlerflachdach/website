@@ -2,6 +2,7 @@
 date = "2018-05-25T09:48:38+02:00"
 titel = ""
 title = "Referenzen"
+layout = "referenzen"
 [menu.main]
 weight = 1
 [[referenzen]]

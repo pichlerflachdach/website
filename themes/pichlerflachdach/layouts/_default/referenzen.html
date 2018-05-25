@@ -1,0 +1,42 @@
+{{ define "main" }}
+<div class="references">
+  <div class="ui container">
+    <h1>{{ .Params.title }}</h1>
+    <ul class="filterlist">
+      <li data-cat="{{md5 "Nacktdach"}}" class="filter-{{md5 "Nacktdach"}}">
+        Nacktdach
+      </li>
+      <li data-cat="{{md5 "Gründach"}}" class="filter-{{md5 "Gründach"}}">Gründach</li>
+      <li data-cat="{{md5 "Sanierung"}}" class="filter-{{md5 "Sanierung"}}">Sanierung</li>
+      <li data-cat="{{md5 "Kies / Fliesen / Holz"}}" class="filter-{{md5 "Kies / Fliesen / Holz"}}">Kies / Fliesen / Holz</li>
+      <li data-cat="{{md5 "Balkon / Terrasse / Garage"}}" class="filter-{{md5 "Balkon / Terrasse / Garage"}}">Balkon / Terrasse / Garage</li>
+      <li data-cat="{{md5 "Gewerbe / Industrie"}}" class="filter-{{md5 "Gewerbe / Industrie"}}">Gewerbe / Industrie</li>
+    </ul>
+  </div>
+  <ul class="reflist">
+    {{ range .Params.referenzen }}
+    <li class="{{md5 .kategorie}}">
+      <div class="ui container">
+        <h3>{{ .bezeichnung }}</h3>
+        <div class="ui stackable grid">
+          {{ range .bilder }}
+          <div class="imgcol eight wide column">
+            <img src="{{partial "imgUrl" (dict "img" . "params" "c_scale,w_700" )}}" />
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+<script type="text/javascript">
+  $(function () {
+    $('.filterlist li').click(function (el) {
+      $('.reflist li').hide();
+      $('.' + el.currentTarget.dataset.cat).fadeIn(1000);
+      $('.filterlist li').removeClass('active');
+      $('.filterlist li.filter-' + el.currentTarget.dataset.cat).addClass('active');
+    });
+  });
+</script> {{ end }}

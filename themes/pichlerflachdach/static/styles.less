@@ -455,3 +455,60 @@ header{
     font-size:1.8rem;
   }
 }
+.references{
+  position:relative;
+  min-height:200px;
+  padding:2rem 0;
+  img{
+    width:100%;
+  }
+  h1{
+    font-weight:normal;
+    color:@green;
+    text-transform:uppercase;
+    font-size:2.2rem;
+    text-align:center;
+    margin:2rem 0;
+    em{
+      color:@grey;
+      font-style: normal;
+    }
+  }
+  .filterlist{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    li{
+      cursor:pointer;
+      padding:0.5rem 1rem;
+      color:white;
+      background:@green;
+      list-style: none;
+      border:1px solid @green;
+      margin-bottom:1rem; 
+      &.active{
+        color:@green;
+        background:white;
+      }
+    }
+  }
+  .reflist{
+    margin:0;
+    padding:0;
+    li:nth-child(odd){
+      background:@grey_light;
+    }
+    li{
+      padding:2rem 0;
+    }
+    h3{
+      color:@green;
+      margin:0 0 2rem 0;
+    }
+    .imgcol{
+      img{
+        width:100%;
+      }
+    }
+  }
+}

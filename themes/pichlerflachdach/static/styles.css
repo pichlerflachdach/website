@@ -430,3 +430,58 @@ header .contacts .ui.list > .item a.header:hover {
   color: #006e94;
   font-size: 1.8rem;
 }
+.references {
+  position: relative;
+  min-height: 200px;
+  padding: 2rem 0;
+}
+.references img {
+  width: 100%;
+}
+.references h1 {
+  font-weight: normal;
+  color: #006e94;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+.references h1 em {
+  color: #4c4c52;
+  font-style: normal;
+}
+.references .filterlist {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.references .filterlist li {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  color: white;
+  background: #006e94;
+  list-style: none;
+  border: 1px solid #006e94;
+  margin-bottom: 1rem;
+}
+.references .filterlist li.active {
+  color: #006e94;
+  background: white;
+}
+.references .reflist {
+  margin: 0;
+  padding: 0;
+}
+.references .reflist li:nth-child(odd) {
+  background: #e9edf0;
+}
+.references .reflist li {
+  padding: 2rem 0;
+}
+.references .reflist h3 {
+  color: #006e94;
+  margin: 0 0 2rem 0;
+}
+.references .reflist .imgcol img {
+  width: 100%;
+}
