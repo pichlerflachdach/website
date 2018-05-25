@@ -18,4 +18,5 @@ fields:
   hidden: false
   default: true
 pages:
+- haftungsausschluss.md
 - impressum.md
