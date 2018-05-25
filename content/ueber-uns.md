@@ -21,6 +21,7 @@ bezeichnung = "<p>Dachdecker Helfer</p>"
 bezeichnung = "<p>Dachdecker Facharbeiter</p>"
 [team]
 titel = "<h2>Unser <em>Team</em></h2>"
+titel_links_hochkant = "Meet the team"
 [[team.mitarbeiter]]
 bild = "/uploads/2018/05/25/pichler_stefan.jpg"
 name = "Stefan Pichler"
