@@ -61,7 +61,7 @@ titel = "<h1>pichler <em>flachdach - Über uns</em></h1>"
 titel_links_hhochkant = ""
 titel_links_hochkant = "Über unsxx"
 [vision]
-content = "<p>BESTE QUALTÄT UND SICHERHEIT FÜR IHR DACH - WIR HABEN´S BEDACHT</p>"
+content = "<p>BESTE QUALTÄT UND SICHERHEIT <br>FÜR IHR DACH - WIR HABEN´S BEDACHT</p>"
 hintergrund = "/uploads/2018/05/24/fliesen_icon.png"
 titel_links_hochkant = "Unsere Vision"
 
