@@ -28,5 +28,7 @@ fields:
   - type: image_gallery
     name: bilder
     label: Bilder
+  config:
+    labelField: bezeichnung
 pages:
 - referenzen.md
