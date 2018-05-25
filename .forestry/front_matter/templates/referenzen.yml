@@ -1,0 +1,17 @@
+---
+hide_body: true
+is_partial: false
+fields:
+- type: text
+  name: titel
+  label: Titel
+- type: field_group_list
+  name: referenzen
+  label: Referenzen
+  fields:
+  - type: text
+    name: bezeichnung
+    label: Bezeichnung
+  - type: image_gallery
+    name: bilder
+    label: Bilder
