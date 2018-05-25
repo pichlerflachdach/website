@@ -72,6 +72,7 @@ staerken:
     bis hin zu Spenglerarbeiten</p></li><li><p>Flexible und termingerechte Abwicklung</p></li></ul>"
   hintergrund: "/uploads/2018/05/24/stärken_background_pic.jpg"
 menu:
-  main: {}
+  main:
+    weight: 1
 
 ---
