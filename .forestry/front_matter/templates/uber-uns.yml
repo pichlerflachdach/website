@@ -30,6 +30,9 @@ fields:
       wysiwyg: true
       schema:
         format: html-blocks
+  - type: file
+    name: hintergrund
+    label: Hintergrund
 - type: field_group
   label: Daten und Fakten
   name: daten_und_fakten
