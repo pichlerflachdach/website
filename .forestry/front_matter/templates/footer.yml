@@ -9,6 +9,13 @@ fields:
   name: logo
   label: Logo
 - type: textarea
+  name: titel_footer
+  label: Titel Footer
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: textarea
   name: kontaktdaten_spalte_1
   label: Kontaktdaten Spalte 1
   config:
