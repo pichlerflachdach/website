@@ -13,7 +13,6 @@ fields:
   hidden: false
   default: false
 pages:
-- kontakt.md
 - datenschutz.md
 - haftungsausschluss.md
 - impressum.md
