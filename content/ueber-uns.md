@@ -15,8 +15,18 @@ weight = 2
 stellen = []
 titel = ""
 [team]
-mitarbeiter = []
-titel = ""
+titel = "<h2>Unser <em>Team</em></h2>"
+[[team.mitarbeiter]]
+bild = "/uploads/2018/05/25/benda.jpg"
+name = "Paevel Benda"
+position = "Folienschweißer"
+[[team.mitarbeiter]]
+bild = "/uploads/2018/05/25/pichler_stefan.jpg"
+name = "Stefan Pichler"
+position = "Geschäftsführer"
+[[team.mitarbeiter]]
+name = "Benjamin Seiz"
+position = "Helfer"
 [uber_uns]
 content_links = "<p>Die <strong>PICHLER Flachdach GmbH und Co.KG</strong> ist Ihr Spezialist für Flachdächer. Stefan Pichler integrierte den Flachdachbau mit Sarnafil-Folie in das Familienunternehmen Pichler GmbH Metallbau - Spenglerei. </p><p>Nach 15 Jahren Erfahrung wurde der Bereich Foliendächer ausgegliedert und ist nun seit Januar 2018 als eigenständige Firma Ihr Anpsrechpartner in der Region.</p><h4>Unsere Prämisse: Stets top Qualität zu liefern. </h4><p>Mit unserem geschulten und Sarnafil-Zertifizierten Mitarbeitern, erbringen wir die Leistung, die Sie von uns erwarten! Die enge Zusammenarbeit mit der Pichler GmbH Metallbau – Spenglerei ermöglicht uns umfangreiche und flexible Leistungen im Bereich Spenglerei und Metallbau. Wir wickeln ihr Bauvorhaben als Komplettpaket für Sie ab.</p><h3>Wir haben's bedacht!</h3>"
 content_rechts = "<p><strong>UNSERE STÄRKEN:</strong></p><ul><li><p>Jahrelange Erfahrung </p></li><li><p>Motivierte und excellent ausgebildete Mitarbeiter</p></li><li><p>TÜV-Zertifizierter Sarnafil Partner</p></li><li><p>Top Qualität mit bis 15 Jahren Garantie</p></li><li><p>Rund-um Service von der Planung bis hin zu Spenglerarbeiten</p></li><li><p>Flexible und termingerechte Abwicklung</p></li></ul>"
