@@ -12,7 +12,7 @@ zahl = 15
 beschriftung = "<p>Quadratmeter verlegte Folie</p>"
 zahl = "90.000"
 [menu.main]
-weight = 2
+weight = 3
 [offene_stellen]
 titel = "<p>Wir Suchen DICH - jetzt bewerben!</p>"
 [[offene_stellen.stellen]]

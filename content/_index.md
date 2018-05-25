@@ -73,6 +73,6 @@ staerken:
   hintergrund: "/uploads/2018/05/24/stärken_background_pic.jpg"
 menu:
   main:
-    weight: 1
+    weight: 2
 
 ---

@@ -2,6 +2,8 @@
 date = "2018-05-25T09:46:59+02:00"
 title = "Haftungsausschluss"
 type = "page"
+[menu.footer]
+weight = 2
 
 +++
 ## HAFTUNG FÜR INHALTE
