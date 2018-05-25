@@ -7,16 +7,11 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: date
-  label: Date
-  type: text
-  hidden: false
-  default: 
 - name: draft
   label: Draft
   type: boolean
   hidden: false
-  default: true
+  default: false
 pages:
 - ueber-uns.md
 - referenzen.md
