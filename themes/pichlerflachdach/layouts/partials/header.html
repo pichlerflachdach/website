@@ -16,18 +16,10 @@
           </div>
         </div>
         {{ end }}
-        <div class="item">
-          <div class="content">
-            <a class="header">
-              Menü
-              <i class="bars middle aligned icon"></i>
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   </div>
-  <div id="headermenu">
+  <div id="headermenu" class="open">
     <div class="ui container">
       {{ $currentPage := . }} {{ range .Site.Menus.main }}
       <a class="headermenuitem sidebar-nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}"
@@ -35,16 +27,4 @@
       {{ end }}
     </div>
   </div>
-  <script type="text/javascript">
-    $(function () {
-      $('.bars').click(function (el) {
-        var open = $('#headermenu').hasClass('open');
-        if (open) {
-          $('#headermenu').removeClass('open')
-        } else {
-          $('#headermenu').addClass('open')
-        }
-      });
-    });
-  </script>
 </header>

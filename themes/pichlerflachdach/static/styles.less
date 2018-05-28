@@ -40,14 +40,11 @@ h1,h2,h3,h4{
   display:block;
   height:0;
   overflow:hidden;
-  transition-property: all;
-  transition-duration: 5s;
-  transition-timing-function: ease-in-out;
+  @media only screen and (max-width: 767px) {
+    margin-top:0.5rem;
+  }
   &.open{
     height:auto;
-    transition-property: all;
-    transition-duration: 5s;
-    transition-timing-function: ease-in-out;
   }
   .container{
     display:flex;
@@ -63,6 +60,9 @@ h1,h2,h3,h4{
     border-right:1px solid white;
     &:last-child{
       border:none!important;
+    }
+    &.active{
+      color:@green;
     }
   }
 }
@@ -124,7 +124,7 @@ header{
   background:@grey_dark;
   padding:2rem 0;
   @media only screen and (max-width: 767px) {
-    padding:1rem 0;
+    padding:1rem 0 0.5rem 0;
   }
   .logo{
     max-width:40%;
