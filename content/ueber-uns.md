@@ -1,7 +1,7 @@
 +++
 date = "2018-05-25T09:48:59+02:00"
 layout = "ueber-uns"
-seo_description = "test 123"
+seo_description = "Die PICHLER Flachdach GmbH und Co.KG ist Ihr Spezialist für Flachdächer. Stefan Pichler integrierte den Flachdachbau mit Sarnafil-Folie in das Familienunternehmen Pichler GmbH Metallbau - Spenglerei.  Nach 15 Jahren Erfahrung wurde der Bereich Foliendächer ausgegliedert und ist nun seit Januar 2018 als eigenständige Firma Ihr Anpsrechpartner in der Region. Unsere Prämisse: Stets top Qualität zu liefern. "
 title = "Über uns"
 type = "page"
 [daten_und_fakten]
