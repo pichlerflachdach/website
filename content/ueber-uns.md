@@ -54,6 +54,7 @@ bild = "/uploads/2018/05/25/benda.jpg"
 name = "Paevel Benda"
 position = "Folienschweißer"
 [[team.mitarbeiter]]
+bild = "/uploads/2018/05/28/seiz.jpg"
 name = "Benjamin Seiz"
 position = "Helfer"
 [uber_uns]
