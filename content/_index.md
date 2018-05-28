@@ -71,6 +71,9 @@ staerken:
     Qualität mit bis 15 Jahren Garantie</p></li><li><p>Rund-um Service von der Planung
     bis hin zu Spenglerarbeiten</p></li><li><p>Flexible und termingerechte Abwicklung</p></li></ul>"
   hintergrund: "/uploads/2018/05/24/stärken_background_pic.jpg"
+seo_description: Die PICHLER Flachdach GmbH und Co.KG ist Ihr Spezialist für Flachdächer.
+  Flachdach & ABDICHTUNGEN      Neubauten und Sanierungen      Industriegebäude      Geschäftsgebäude      Hallendächer      Wohngebäude
+  | Terrasse | Balkone | Garagen | Dachkomplett-Lösungen (inklusive Spenglerarbeiten)
 menu:
   main:
     weight: 1
