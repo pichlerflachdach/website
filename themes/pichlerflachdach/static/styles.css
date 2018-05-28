@@ -19,6 +19,11 @@ h4 {
   font-weight: normal;
   font-size: 2rem;
 }
+@media only screen and (max-width: 767px) {
+  .standard h1 {
+    margin: 1rem 0;
+  }
+}
 .standard h2 {
   font-weight: normal;
   font-size: 1.5rem;
@@ -50,6 +55,7 @@ h4 {
 #headermenu a {
   color: white;
   font-size: 0.9rem;
+  margin: 0.5rem 0;
   padding: 0 0.5rem;
   line-height: 0.9rem;
   border-right: 1px solid white;
@@ -60,6 +66,14 @@ h4 {
 footer {
   position: relative;
   padding: 4rem 0;
+}
+footer .footercont .logo {
+  max-height: 20vh;
+}
+@media only screen and (max-width: 767px) {
+  footer .footercont .logocolumn {
+    text-align: center;
+  }
 }
 footer .footermenu {
   margin-top: 4rem;
@@ -76,11 +90,13 @@ footer .footermenu a {
 footer .footermenu a:last-child {
   border: none!important;
 }
-footer .logo {
-  max-height: 20vh;
-}
 footer .cont1 {
   border-left: 1px solid #006e94;
+}
+@media only screen and (max-width: 767px) {
+  footer .cont1 {
+    border: none;
+  }
 }
 footer h2 {
   color: #006e94;
@@ -103,9 +119,20 @@ header {
   background: #8e9faf;
   padding: 2rem 0;
 }
+@media only screen and (max-width: 767px) {
+  header {
+    padding: 1rem 0;
+  }
+}
 header .logo {
   max-width: 40%;
   max-height: 20vh;
+}
+@media only screen and (max-width: 767px) {
+  header .logo {
+    max-height: auto;
+    max-width: 40vw;
+  }
 }
 header > .ui.container {
   display: flex;
@@ -114,6 +141,12 @@ header > .ui.container {
 }
 header .contacts {
   min-width: 200px;
+}
+@media only screen and (max-width: 767px) {
+  header .contacts {
+    width: 50%;
+    min-width: 50%;
+  }
 }
 header .contacts .item .content .header {
   display: flex;
@@ -140,6 +173,11 @@ header .contacts .ui.list > .item a.header:hover {
   text-transform: uppercase;
   font-size: 1.5rem;
   letter-spacing: 0.2rem;
+}
+@media only screen and (max-width: 767px) {
+  .vtitle {
+    display: none;
+  }
 }
 .home_topteaser {
   position: relative;
@@ -193,6 +231,11 @@ header .contacts .ui.list > .item a.header:hover {
   position: relative;
   min-height: 200px;
   padding: 2rem 0;
+}
+@media only screen and (max-width: 767px) {
+  .home_services {
+    margin-top: 0rem;
+  }
 }
 .home_services .imgcol img {
   width: 100%;
@@ -252,12 +295,24 @@ header .contacts .ui.list > .item a.header:hover {
   line-height: 10rem;
   text-align: center;
 }
+@media only screen and (max-width: 767px) {
+  .home_ausf .knz .year {
+    font-size: 5rem;
+    line-height: 5rem;
+    letter-spacing: -0.025em;
+  }
+}
 .home_about {
   margin-top: 4rem;
   background: #e9edf0;
   position: relative;
   min-height: 200px;
   padding: 2rem 0;
+}
+@media only screen and (max-width: 767px) {
+  .home_about {
+    margin-top: 0rem;
+  }
 }
 .home_about .vtitle {
   margin-left: -65px;
@@ -313,6 +368,11 @@ header .contacts .ui.list > .item a.header:hover {
   min-height: 200px;
   padding: 2rem 0;
 }
+@media only screen and (max-width: 767px) {
+  .about_about {
+    padding: 1rem 0;
+  }
+}
 .about_about .imgcol img {
   width: 100%;
 }
@@ -323,6 +383,11 @@ header .contacts .ui.list > .item a.header:hover {
   font-size: 2.2rem;
   text-align: center;
   margin: 2rem 0;
+}
+@media only screen and (max-width: 767px) {
+  .about_about h1 {
+    margin: 1rem 0;
+  }
 }
 .about_about h1 em {
   color: #4c4c52;
@@ -364,10 +429,22 @@ header .contacts .ui.list > .item a.header:hover {
   text-align: center;
   margin-top: -6rem;
 }
+@media only screen and (max-width: 767px) {
+  .about_data .knz .year {
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-top: 0rem;
+  }
+}
 .about_team {
   position: relative;
   min-height: 200px;
   padding: 2rem 0;
+}
+@media only screen and (max-width: 767px) {
+  .about_team {
+    padding: 1rem 0;
+  }
 }
 .about_team h2 {
   font-weight: normal;
@@ -376,6 +453,11 @@ header .contacts .ui.list > .item a.header:hover {
   font-size: 2.2rem;
   text-align: center;
   margin: 2rem 0;
+}
+@media only screen and (max-width: 767px) {
+  .about_team h2 {
+    margin: 1rem 0;
+  }
 }
 .about_team h2 em {
   color: #4c4c52;
@@ -397,6 +479,11 @@ header .contacts .ui.list > .item a.header:hover {
   min-height: 200px;
   padding: 2rem 0;
 }
+@media only screen and (max-width: 767px) {
+  .about_vision {
+    min-height: auto;
+  }
+}
 .about_vision .vtitle {
   color: white;
 }
@@ -406,11 +493,22 @@ header .contacts .ui.list > .item a.header:hover {
   color: white;
   font-size: 2.5rem;
 }
+@media only screen and (max-width: 767px) {
+  .about_vision p {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+  }
+}
 .about_st {
   background: #e9edf0;
   position: relative;
   min-height: 200px;
   padding: 2rem 20vw;
+}
+@media only screen and (max-width: 767px) {
+  .about_st {
+    padding: 1rem;
+  }
 }
 .about_st .os {
   text-align: center;
@@ -443,6 +541,11 @@ header .contacts .ui.list > .item a.header:hover {
   min-height: 200px;
   padding: 2rem 0;
 }
+@media only screen and (max-width: 767px) {
+  .contact {
+    padding: 1rem 0;
+  }
+}
 .contact img {
   width: 100%;
 }
@@ -453,6 +556,11 @@ header .contacts .ui.list > .item a.header:hover {
   font-size: 2.2rem;
   text-align: center;
   margin: 2rem 0;
+}
+@media only screen and (max-width: 767px) {
+  .contact h1 {
+    margin: 1rem 0;
+  }
 }
 .contact h1 em {
   color: #4c4c52;
@@ -478,6 +586,11 @@ header .contacts .ui.list > .item a.header:hover {
   min-height: 200px;
   padding: 2rem 0;
 }
+@media only screen and (max-width: 767px) {
+  .references {
+    padding: 1rem 0;
+  }
+}
 .references img {
   width: 100%;
 }
@@ -489,6 +602,11 @@ header .contacts .ui.list > .item a.header:hover {
   text-align: center;
   margin: 2rem 0;
 }
+@media only screen and (max-width: 767px) {
+  .references h1 {
+    margin: 1rem 0;
+  }
+}
 .references h1 em {
   color: #4c4c52;
   font-style: normal;
@@ -497,6 +615,7 @@ header .contacts .ui.list > .item a.header:hover {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  padding: 0;
 }
 .references .filterlist li {
   cursor: pointer;
@@ -506,6 +625,11 @@ header .contacts .ui.list > .item a.header:hover {
   list-style: none;
   border: 1px solid #006e94;
   margin-bottom: 1rem;
+}
+@media only screen and (max-width: 767px) {
+  .references .filterlist li {
+    padding: 0.25rem 0.5rem;
+  }
 }
 .references .filterlist li.active {
   color: #006e94;

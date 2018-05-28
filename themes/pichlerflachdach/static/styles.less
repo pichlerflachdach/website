@@ -21,6 +21,9 @@ h1,h2,h3,h4{
     margin:2rem 0;
     font-weight:normal;
     font-size:2rem;
+    @media only screen and (max-width: 767px) {
+      margin:1rem 0;
+    }
   }
   h2{
     font-weight:normal;
@@ -54,7 +57,8 @@ h1,h2,h3,h4{
   a{
     color:white;
     font-size:0.9rem;
-    padding:0 0.5rem;
+    margin:0.5rem 0;
+    padding: 0 0.5rem;
     line-height:0.9rem;
     border-right:1px solid white;
     &:last-child{
@@ -65,6 +69,16 @@ h1,h2,h3,h4{
 footer{
   position:relative;
   padding:4rem 0;
+  .footercont{
+    .logo{
+      max-height:20vh;
+    }
+    @media only screen and (max-width: 767px) {
+      .logocolumn{
+        text-align:center;
+      }
+    }
+  }
   .footermenu{
     margin-top:4rem;
     display:flex;
@@ -80,11 +94,11 @@ footer{
       }
     }
   }
-  .logo{
-    max-height:20vh;
-  }
   .cont1{
     border-left:1px solid @green;
+    @media only screen and (max-width: 767px) {
+      border:none;
+    }
   }
   h2{
     color:@green;
@@ -109,9 +123,16 @@ footer{
 header{
   background:@grey_dark;
   padding:2rem 0;
+  @media only screen and (max-width: 767px) {
+    padding:1rem 0;
+  }
   .logo{
     max-width:40%;
     max-height:20vh;
+    @media only screen and (max-width: 767px) {
+      max-height:auto;
+      max-width:40vw;
+    }
   }
   > .ui.container{
     display:flex;
@@ -119,6 +140,10 @@ header{
     align-items:center;
   }
   .contacts{
+    @media only screen and (max-width: 767px) {
+      width:50%;
+      min-width:50%;
+    }
     min-width:200px;
     .item{
       .content{
@@ -140,6 +165,9 @@ header{
   }
 }
 .vtitle{
+  @media only screen and (max-width: 767px) {
+    display:none;
+  }
   transform: rotate(-90deg);
   min-width:200px;
   margin-left:-50px;
@@ -202,6 +230,9 @@ header{
 }
 .home_services{
   margin-top:4rem;
+  @media only screen and (max-width: 767px) {
+    margin-top:0rem;
+  }
   position:relative;
   min-height:200px;
   padding:2rem 0;
@@ -265,11 +296,19 @@ header{
       letter-spacing: -0.05em;
       line-height:10rem;
       text-align: center;
+      @media only screen and (max-width: 767px) {
+        font-size:5rem;
+        line-height:5rem;
+        letter-spacing: -0.025em;
+      }
     }
   }
 }
 .home_about{
   margin-top:4rem;
+  @media only screen and (max-width: 767px) {
+    margin-top:0rem;
+  }
   background:@grey_light;
   position:relative;
   min-height:200px;
@@ -330,6 +369,9 @@ header{
   position:relative;
   min-height:200px;
   padding:2rem 0;
+  @media only screen and (max-width: 767px) {
+    padding:1rem 0;
+  }
   .imgcol{
     img{
       width:100%;
@@ -342,6 +384,9 @@ header{
     font-size:2.2rem;
     text-align:center;
     margin:2rem 0;
+    @media only screen and (max-width: 767px) {
+      margin:1rem 0;
+    }
     em{
       color:@grey;
       font-style: normal;
@@ -384,6 +429,11 @@ header{
       line-height:10rem;
       text-align: center;
       margin-top:-6rem;
+      @media only screen and (max-width: 767px) {
+        font-size:5rem;
+        line-height:5rem;
+        margin-top:0rem;
+      }
     }
   }
 }
@@ -391,6 +441,9 @@ header{
   position:relative;
   min-height:200px;
   padding:2rem 0;
+  @media only screen and (max-width: 767px) {
+    padding:1rem 0;
+  }
   h2{
     font-weight:normal;
     color:@green;
@@ -398,6 +451,9 @@ header{
     font-size:2.2rem;
     text-align:center;
     margin:2rem 0;
+    @media only screen and (max-width: 767px) {
+      margin:1rem 0;
+    }
     em{
       color:@grey;
       font-style: normal;
@@ -420,6 +476,9 @@ header{
 .about_vision{
   position:relative;
   min-height:200px;
+  @media only screen and (max-width: 767px) {
+    min-height:auto;
+  }
   padding:2rem 0;
   .vtitle{
     color:white;
@@ -429,6 +488,10 @@ header{
     text-align:center;
     color:white;
     font-size:2.5rem;
+    @media only screen and (max-width: 767px) {
+      font-size:1.5rem;
+      padding:0 1rem;
+    }
   }
 }
 .about_st{
@@ -436,6 +499,9 @@ header{
   position:relative;
   min-height:200px;
   padding:2rem 20vw;
+  @media only screen and (max-width: 767px) {
+    padding:1rem;
+  }
   .os{
     text-align:center;
   }
@@ -467,6 +533,9 @@ header{
   position:relative;
   min-height:200px;
   padding:2rem 0;
+  @media only screen and (max-width: 767px) {
+    padding:1rem 0;
+  }
   img{
     width:100%;
   }
@@ -477,6 +546,9 @@ header{
     font-size:2.2rem;
     text-align:center;
     margin:2rem 0;
+    @media only screen and (max-width: 767px) {
+      margin:1rem 0;
+    }
     em{
       color:@grey;
       font-style: normal;
@@ -503,6 +575,9 @@ header{
   position:relative;
   min-height:200px;
   padding:2rem 0;
+  @media only screen and (max-width: 767px) {
+    padding:1rem 0;
+  }
   img{
     width:100%;
   }
@@ -513,6 +588,9 @@ header{
     font-size:2.2rem;
     text-align:center;
     margin:2rem 0;
+    @media only screen and (max-width: 767px) {
+      margin:1rem 0;
+    }
     em{
       color:@grey;
       font-style: normal;
@@ -522,9 +600,13 @@ header{
     display:flex;
     justify-content:space-evenly;
     flex-wrap:wrap;
+    padding:0;
     li{
       cursor:pointer;
       padding:0.5rem 1rem;
+      @media only screen and (max-width: 767px) {
+        padding:0.25rem 0.5rem;
+      }
       color:white;
       background:@green;
       list-style: none;
