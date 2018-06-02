@@ -38,14 +38,19 @@ ausfuhrungen:
     link: referenzen.md
   - titel: Kiesel
     bild: "/uploads/2018/05/24/kiesel_icon.png"
+    link: referenzen.md
   - titel: Holz
     bild: "/uploads/2018/05/24/holz_icon.png"
+    link: referenzen.md
   - titel: Fliesen
     bild: "/uploads/2018/05/24/fliesen_icon.png"
+    link: referenzen.md
   - titel: Photovoltaik
     bild: "/uploads/2018/05/24/photovoltaik_icon.png"
+    link: referenzen.md
   - titel: Begrünung
     bild: "/uploads/2018/05/24/begrüngung_icon.png"
+    link: referenzen.md
   kennzahlen:
   - zahl: 40
     beschriftung: "<p>Jahre Lebenserwartung</p>"
