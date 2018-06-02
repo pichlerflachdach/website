@@ -55,7 +55,7 @@ ausfuhrungen:
   - zahl: 40
     beschriftung: "<p>Jahre Haltbarkeit Ihrer Sarnafil Folie</p>"
   - zahl: 90
-    beschriftung: "<p>Tausend Quadratmeter verlegte Folie</p>"
+    beschriftung: "<p>Tausend Quadratmeter verlegte Sarnafil Folie weltweit</p>"
   - zahl: 15
     beschriftung: "<p>Bis zu 15 Jahren Garantie</p>"
 staerken:
