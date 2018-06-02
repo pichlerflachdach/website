@@ -32,6 +32,7 @@ fields:
     - type: boolean
       name: nacktdach
       label: Nacktdach
+      default: false
     - type: boolean
       name: gruendach
       label: Gründach
