@@ -15,7 +15,26 @@
   </div>
   <ul class="reflist">
     {{ range .Params.referenzen }}
-    <li class="{{md5 .kategorie}}">
+    <li class="
+    {{ if .nacktdach }}
+      {{md5 "Nacktdach"}}
+    {{ end }}
+    {{ if .gruendach }}
+      {{md5 "Gründach"}}
+    {{ end }}
+    {{ if .sanierung }}
+      {{md5 "Sanierung"}}
+    {{ end }}
+    {{ if .kies_fliesen_holz }}
+      {{md5 "Kies / Fliesen / Holz"}}
+    {{ end }}
+    {{ if .balkon_terrasse_garage }}
+      {{md5 "Balkon / Terrasse / Garage"}}
+    {{ end }}
+    {{ if .gewerbe_industrie }}
+      {{md5 "Gewerbe / Industrie"}}
+    {{ end }}
+    ">
       <div class="ui container">
         <h3>{{ .bezeichnung }}</h3>
         <div class="ui stackable grid">
