@@ -25,9 +25,6 @@ fields:
       - Balkon / Terrasse / Garage
       - Gewerbe / Industrie
     label: Kategorie
-  - type: image_gallery
-    name: bilder
-    label: Bilder
   - type: field_group_list
     name: kategorien
     label: Kategorien
@@ -45,6 +42,9 @@ fields:
         - Gewerbe / Industrie
       label: Kategorie
       name: kategorie
+  - type: image_gallery
+    name: bilder
+    label: Bilder
   config:
     labelField: bezeichnung
 - type: text
