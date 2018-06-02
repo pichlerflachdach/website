@@ -35,6 +35,7 @@ ausfuhrungen:
   ausfuhrungen:
   - titel: Nacktdach
     bild: "/uploads/2018/05/24/nacktdach_icon.png"
+    link: referenzen.md
   - titel: Kiesel
     bild: "/uploads/2018/05/24/kiesel_icon.png"
   - titel: Holz
