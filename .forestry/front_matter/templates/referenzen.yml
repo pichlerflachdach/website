@@ -32,6 +32,21 @@ fields:
     - type: boolean
       name: nacktdach
       label: Nacktdach
+    - type: boolean
+      name: gruendach
+      label: Gründach
+    - type: boolean
+      name: sanierung
+      label: Sanierung
+    - type: boolean
+      name: kies_fliesen_holz
+      label: Kies / Fliesen / Holz
+    - type: boolean
+      name: balkon_terrasse_garage
+      label: Balkon / Terrasse / Garage
+    - type: boolean
+      name: gewerbe_industrie
+      label: Gewerbe / Industrie
   - type: image_gallery
     name: bilder
     label: Bilder
