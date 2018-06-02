@@ -21,6 +21,7 @@ bilder = ["/uploads/2018/05/25/wohnhaus_kies1.jpeg", "/uploads/2018/05/25/wohnha
 kategorie = "Kies / Fliesen / Holz"
 kies_fliesen_holz = true
 [[referenzen]]
+balkon_terrasse_garage = true
 bezeichnung = "Flachdach mit Holzbelag"
 bilder = ["/uploads/2018/05/25/Holzdach.jpg"]
 kategorie = "Kies / Fliesen / Holz"
