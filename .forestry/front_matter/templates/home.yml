@@ -92,6 +92,13 @@ fields:
     - type: text
       name: titel
       label: Titel
+    - type: select
+      name: link
+      config:
+        source:
+          type: pages
+          section: pages
+      label: Link
     - type: file
       name: bild
       label: Bild
