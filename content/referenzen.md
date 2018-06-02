@@ -14,6 +14,7 @@ gewerbe_industrie = true
 kategorie = "Nacktdach"
 kategorien = ["kategorie", "kategorie", "asd"]
 nacktdach = true
+sanierung = true
 [[referenzen]]
 bezeichnung = "Bekiestes Wohnhausdach Markmiller Deggendorf"
 bilder = ["/uploads/2018/05/25/wohnhaus_kies1.jpeg", "/uploads/2018/05/25/wohnhaus_kies.jpeg"]
