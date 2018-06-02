@@ -53,7 +53,7 @@ ausfuhrungen:
     link: referenzen.md
   kennzahlen:
   - zahl: 40
-    beschriftung: "<p>Jahre Lebenserwartung</p>"
+    beschriftung: "<p>Jahre Haltbarkeit Ihrer Sarnafil Folie</p>"
   - zahl: 90
     beschriftung: "<p>Tausend Quadratmeter verlegte Folie</p>"
   - zahl: 15
