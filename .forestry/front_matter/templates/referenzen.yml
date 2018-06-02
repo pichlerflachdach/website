@@ -25,23 +25,13 @@ fields:
       - Balkon / Terrasse / Garage
       - Gewerbe / Industrie
     label: Kategorie
-  - type: field_group_list
-    name: kategorien
+  - type: field_group
     label: Kategorien
+    name: kategorien
     fields:
-    - type: select
-      config:
-        source:
-          type: simple
-        options:
-        - Nacktdach
-        - Gründach
-        - Sanierung
-        - Kies / Fliesen / Holz
-        - Balkon / Terrasse / Garage
-        - Gewerbe / Industrie
-      label: Kategorie
-      name: kategorie
+    - type: boolean
+      name: nacktdach
+      label: Nacktdach
   - type: image_gallery
     name: bilder
     label: Bilder
