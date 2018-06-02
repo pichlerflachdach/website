@@ -11,6 +11,10 @@ weight = 2
 bezeichnung = "Nacktdach Sanierung Markmiller Deggendorf"
 bilder = ["/uploads/2018/05/25/nacktdach.jpeg", "/uploads/2018/05/25/nacktdach2.jpeg", "/uploads/2018/05/25/nacktdach1.jpeg"]
 kategorie = "Nacktdach"
+[[referenzen.kategorien]]
+kategorie = "Nacktdach"
+[[referenzen.kategorien]]
+kategorie = "Sanierung"
 [[referenzen]]
 bezeichnung = "Bekiestes Wohnhausdach Markmiller Deggendorf"
 bilder = ["/uploads/2018/05/25/wohnhaus_kies1.jpeg", "/uploads/2018/05/25/wohnhaus_kies.jpeg"]
