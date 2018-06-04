@@ -58,7 +58,7 @@ ausfuhrungen:
     beschriftung: "<p>ca. 90TSD Quadratmeter verlegte Sarnafil Folie in den letzten
       15 Jahren</p>"
   - zahl: 15
-    beschriftung: "<p>Bis zu 15 Jahren Garantie</p>"
+    beschriftung: "<p>Bis zu 15 Jahre Systemgarantie von Sarnafil</p>"
 staerken:
   titel_links_hochkant: Unsere Stärken
   titel: Unsere Stärken
