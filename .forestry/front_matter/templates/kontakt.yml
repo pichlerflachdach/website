@@ -1,4 +1,5 @@
 ---
+label: Kontakt
 hide_body: true
 is_partial: false
 fields:
@@ -29,4 +30,4 @@ fields:
   name: seo_description
   label: SEO Description
 pages:
-- kontakt.md
+- content/kontakt.md

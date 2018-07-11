@@ -1,5 +1,6 @@
 +++
 date = "2018-05-25T09:46:31+02:00"
+seo_description = ""
 title = "Impressum"
 type = "page"
 [menu.footer]
@@ -14,7 +15,7 @@ Dorfstraße 24
 Büro: +49 \[0\] 9921 7707  
 Fax: +49 \[0\] 9921 6836
 
-office@pichler-flachdach.de  
+office\[at\]pichler-flachdach.de  
 www.pichler-flachdach.de
 
 USt-IdNr.: DE315750497  

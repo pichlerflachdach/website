@@ -1,10 +1,11 @@
 ---
+label: Über uns
 hide_body: true
 is_partial: false
 fields:
 - type: field_group
   name: uber_uns
-  label: "Über uns"
+  label: Über uns
   fields:
   - type: textarea
     name: titel
@@ -124,4 +125,4 @@ fields:
   name: seo_description
   label: SEO Description
 pages:
-- ueber-uns.md
+- content/ueber-uns.md

@@ -1,4 +1,5 @@
 ---
+label: default
 hide_body: false
 is_partial: false
 fields:
@@ -16,6 +17,6 @@ fields:
   name: seo_description
   label: SEO Description
 pages:
-- impressum.md
-- datenschutz.md
-- haftungsausschluss.md
+- content/impressum.md
+- content/haftungsausschluss.md
+- content/datenschutz.md

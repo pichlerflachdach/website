@@ -1,4 +1,5 @@
 ---
+label: Footer
 hide_body: true
 is_partial: false
 fields:
@@ -37,4 +38,4 @@ fields:
     schema:
       format: html-blocks
 pages:
-- global/footer.md
+- content/global/footer.md
