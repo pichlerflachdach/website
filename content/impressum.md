@@ -16,7 +16,7 @@ Büro: +49 \[0\] 9921 7707
 Fax: +49 \[0\] 9921 6836
 
 office\[at\]pichler-flachdach.de  
-www.pichler-flachdach.de
+www.pichler-flachdach.de 
 
 USt-IdNr.: DE315750497  
 St.-Nr.: 170/172/58109
